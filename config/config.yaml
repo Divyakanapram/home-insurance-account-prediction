@@ -1,0 +1,22 @@
+paths:
+  campaign_data: "data/raw/campaign.csv"
+  mortgage_data: "data/raw/mortgage.csv"
+  processed_data: "data/processed/merged_final.csv"
+  model_dir: "models"
+
+model_params:
+  logistic_regression:
+    C: 0.5
+    penalty: "l2"
+    solver: "liblinear"
+    max_iter: 1000
+    class_weight: "balanced"
+
+  random_forest:
+    n_estimators: 1000
+    class_weight: "balanced"
+    random_state: 42
+
+preprocessing:
+  test_size: 0.2
+  random_state: 42

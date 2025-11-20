@@ -1,0 +1,165 @@
+Estimated number of customers likely to create account: 771 out of 14987
+
+Estimated number of customers likely to create account (LogReg): 1932 out of 14987
+
+Estimated number of customers likely to create account (RF): 771 out of 14987
+📘 Predicted creators by education (RF):
+ education
+Bachelors       228
+HS-grad         129
+Some-college    124
+Masters         112
+Prof-school      61
+Doctorate        40
+Assoc-voc        30
+Assoc-acdm       20
+11th             12
+12th              5
+7th-8th           4
+9th               3
+10th              1
+1st-4th           1
+5th-6th           1
+Name: count, dtype: int64
+
+📊 Predicted creators by age group (RF):
+ age_group
+40-49    284
+30-39    212
+50-59    174
+60-69     67
+20-29     17
+70-79     15
+90-99      1
+10-19      1
+Name: count, dtype: int64
+
+🕌 Predicted creators by religion (RF):
+ religion
+Christianity       635
+Not Stated          64
+Islam               40
+Hinduism             8
+Other religions      7
+Sikhism              6
+Buddhism             6
+Judaism              5
+Name: count, dtype: int64
+
+🌏 Predicted creators by native country (RF):
+ native_country
+country_United Kingdom    708
+country_?                  21
+country_India               6
+country_Poland              6
+country_Japan               4
+country_England             4
+country_Scotland            4
+country_Canada              4
+country_Netherlands         3
+country_Germany             3
+country_Sweden              2
+country_Bulgaria            2
+country_Iran                1
+country_Italy               1
+country_Greece              1
+country_Hungary             1
+Name: count, dtype: int64
+
+💍 Predicted creators by marital status (RF):
+ marital_status
+Married-civ-spouse       653
+Divorced                  54
+Never-married             44
+Separated                  8
+Widowed                    8
+Married-spouse-absent      3
+Married-AF-spouse          1
+Name: count, dtype: int64
+
+Estimated number of customers likely to create account (LogReg): 1932 out of 14987
+📘 Predicted creators by education (LogReg):
+ education
+Bachelors       495
+Some-college    320
+Masters         298
+HS-grad         296
+Prof-school     201
+Doctorate       127
+Assoc-voc        89
+Assoc-acdm       66
+11th             12
+12th             10
+9th               5
+Preschool         3
+10th              3
+1st-4th           3
+7th-8th           2
+5th-6th           2
+Name: count, dtype: int64
+
+📊 Predicted creators by age group (LogReg):
+ age_group
+40-49    671
+30-39    493
+50-59    439
+20-29    154
+60-69    147
+70-79     20
+10-19      3
+80-89      3
+90-99      2
+Name: count, dtype: int64
+
+🕌 Predicted creators by religion (LogReg):
+ religion
+Christianity       1574
+Not Stated          178
+Islam                93
+Buddhism             36
+Hinduism             23
+Other religions      13
+Judaism               8
+Sikhism               7
+Name: count, dtype: int64
+
+🌏 Predicted creators by native country (LogReg):
+ native_country
+country_United Kingdom     1791
+country_?                    34
+country_Poland               22
+country_Japan                 9
+country_England               8
+country_India                 8
+country_Canada                7
+country_Italy                 7
+country_Taiwan                5
+country_Scotland              5
+country_Greece                5
+country_Sweden                4
+country_Wales                 4
+country_Germany               3
+country_Guatemala             3
+country_Netherlands           3
+country_Ecuador               2
+country_Hungary               2
+country_Ireland               2
+country_Iran                  1
+country_China                 1
+country_Haiti                 1
+country_Vietnam               1
+country_Trinadad&Tobago       1
+country_Bulgaria              1
+country_France                1
+country_Portugal              1
+Name: count, dtype: int64
+
+💍 Predicted creators by marital status (LogReg):
+ marital_status
+Married-civ-spouse       1659
+Never-married             113
+Divorced                   97
+Widowed                    38
+Separated                  17
+Married-spouse-absent       8
+Name: count, dtype: int64

@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+category_encoders
+imbalanced-learn
+python-dateutil
+pytest>=7.0.0
+pytest-cov>=4.0.0
